@@ -1,18 +1,14 @@
-using System;
 using UnityEngine;
 
 namespace SOLIDSolution.Scripts.PlayerController
 {
     public class PawnMover : MonoBehaviour
     {
-        private Rigidbody2D _pawn;
         private IMovable _movable;
+        private Rigidbody2D _pawn;
         private Vector2 _direction;
 
-        private void FixedUpdate()
-        {
-            throw new NotImplementedException();
-        }
+        private void FixedUpdate() => _movable?.Move(_direction);
 
         public void UpdatePawn(Rigidbody2D newPawn)
         {
