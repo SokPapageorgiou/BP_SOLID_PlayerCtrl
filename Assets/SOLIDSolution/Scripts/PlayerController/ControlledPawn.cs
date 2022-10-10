@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 namespace SOLIDSolution.Scripts.PlayerController
 {
-    public class ControlledPawnSetter : MonoBehaviour
+    public class ControlledPawn : MonoBehaviour
     {
         [SerializeField] private Rigidbody2D pawn;
 
