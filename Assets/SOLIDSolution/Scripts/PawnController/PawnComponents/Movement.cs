@@ -1,6 +1,7 @@
+using SOLIDSolution.Scripts.PawnController.MovCtrl;
 using UnityEngine;
 
-namespace SOLIDSolution.Scripts.PlayerController
+namespace SOLIDSolution.Scripts.PawnController.PawnComponents
 {
     public class Movement : MonoBehaviour, IMovable
     {

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SOLIDSolution.Scripts.PlayerController
+namespace SOLIDSolution.Scripts.PlayerInput
 {
     public class PlayerMovInput : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace SOLIDSolution.Scripts.PlayerController
+namespace SOLIDSolution.Scripts.PawnController.MovCtrl
 {
     public interface IMovable
     {
