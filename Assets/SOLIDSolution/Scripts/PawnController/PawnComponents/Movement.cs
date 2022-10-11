@@ -11,6 +11,7 @@ namespace SOLIDSolution.Scripts.PawnController.PawnComponents
 
         private void Awake() => _rigidbody2D = GetComponent<Rigidbody2D>();
 
-        public void Move(Vector2 direction) => _rigidbody2D.velocity = direction.normalized * speed;
+        public void Move(Vector2 direction) 
+            => _rigidbody2D.velocity = direction.normalized * speed;
     }
 }

@@ -11,6 +11,7 @@ namespace SOLIDSolution.Scripts.PawnController
 
         private void Awake() => ChangePawn(pawn);
 
-        public void ChangePawn(Rigidbody2D newPawn) => onPawnChanges.Invoke(newPawn);
+        public void ChangePawn(Rigidbody2D newPawn) 
+            => onPawnChanges.Invoke(newPawn);
     }
 }

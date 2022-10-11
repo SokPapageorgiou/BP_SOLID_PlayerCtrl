@@ -17,6 +17,5 @@ namespace SOLIDSolution.Scripts.PawnController.MovCtrl
         }
 
         public void UpdateDirection(Vector2 newDirection) => _direction = newDirection;
-
     }
 }

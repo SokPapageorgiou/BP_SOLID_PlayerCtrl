@@ -3,7 +3,6 @@
  */
 
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace ExampleFromInternet.Scripts
 {
@@ -30,6 +29,5 @@ namespace ExampleFromInternet.Scripts
         }
 
         private void FixedUpdate() => _rigidbody2D.velocity = _moveDir * moveSpeed;
-
     }
 }
